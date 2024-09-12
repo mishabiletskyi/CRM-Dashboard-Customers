@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <aside class="dashboard__sidebar">
+            <div class="logo">
+                <img src="assets/header-logo.svg" alt="Logo" class="logo__image">
+                <h1 class="logo__text">Dashboard</h1>
+                <span class="logo__version">v.01</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--dashboard ">
+                        <a href="#dashboard" class="nav__link" data-page="dashboard">
+                            <img src="assets/dashboard-icon.svg" alt="Dashboard Icon" class="nav__icon">
+                            Dashboard
+                            <img src="assets/right-arrow-icon.svg" alt="Arrow Icon" class="nav__icon-right">
+                        </a>
+                    </li>
+                    <li class="nav__item nav__item--product">
+                        <a href="#product" class="nav__link" data-page="product">
+                            <img src="assets/product-icon.svg" alt="Product Icon" class="nav__icon">
+                            Product
+                            <img src="assets/right-arrow-icon.svg" alt="Arrow Icon" class="nav__icon-right">
+                        </a>
+                    </li>
+                    <li class="nav__item nav__item--customers nav__item--active">
+                        <a href="#customers" class="nav__link" data-page="customers">
+                            <img src="assets/customers-icon.svg" alt="Customers Icon" class="nav__icon">
+                            Customers
+                            <img src="assets/right-arrow-icon.svg" alt="Arrow Icon" class="nav__icon-right">
+                        </a>
+                    </li>
+                    <li class="nav__item nav__item--income">
+                        <a href="#income" class="nav__link" data-page="income">
+                            <img src="assets/income-icon.svg" alt="Income Icon" class="nav__icon">
+                            Income
+                            <img src="assets/right-arrow-icon.svg" alt="Arrow Icon" class="nav__icon-right">
+                        </a>
+                    </li>
+                    <li class="nav__item nav__item--promote">
+                        <a href="#promote" class="nav__link" data-page="promote">
+                            <img src="assets/promote-icon.svg" alt="Promote Icon" class="nav__icon">
+                            Promote
+                            <img src="assets/right-arrow-icon.svg" alt="Arrow Icon" class="nav__icon-right">
+                        </a>
+                    </li>
+                    <li class="nav__item nav__item--help">
+                        <a href="#help" class="nav__link" data-page="help">
+                            <img src="assets/help-icon.svg" alt="Help Icon" class="nav__icon">
+                            Help
+                            <img src="assets/right-arrow-icon.svg" alt="Arrow Icon" class="nav__icon-right">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <img src="assets/evano-avatar.png" alt="Evano" class="profile__avatar">
+                <div class="profile__info">
+                     <p class="profile__name">Evano</p>
+                    <p class="profile__role">Project Manager</p>
+                </div>
+               
+            </div>
+        </aside>
+
+   
+
+            <div id="content" class="content">
+          
+            </div>
+        </main>
+    </div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
